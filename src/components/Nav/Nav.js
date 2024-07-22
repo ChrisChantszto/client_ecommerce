@@ -1,10 +1,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
 import { FaShoppingCart } from "react-icons/fa";
-
 import Container from "../Container";
-
 import styles from "./Nav.module.css";
 
 const Nav = ({ children }) => {
@@ -18,11 +15,15 @@ const Nav = ({ children }) => {
   return (
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
-        <p className={styles.title}>
-          <Link href="/">
-            <a>Snipcart Store</a>
-          </Link>
-        </p>
+        <Link href="/">
+          <a className={styles.logoLink}>
+            <img 
+              src="https://sismapblog.wpcomstaging.com/wp-content/uploads/2022/10/橫pee-logo-1-2.gif" 
+              alt="Play Eat Easy Logo" 
+              className={styles.logo}
+            />
+          </a>
+        </Link>
         <p className={styles.description}>
           <a
             className="snipcart-checkout snipcart-summary"

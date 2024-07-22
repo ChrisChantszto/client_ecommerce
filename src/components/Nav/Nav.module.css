@@ -9,6 +9,18 @@
   }
 }
 
+.logoLink {
+  display: inline-block; /* or block, depending on your layout needs */
+  cursor: pointer;
+}
+
+
+.logo {
+  height: 30px; /* Reduced from 40px to 30px */
+  width: auto; /* This ensures the aspect ratio is maintained */
+  margin-right: 8px; /* Slightly reduced margin */
+}
+
 .navContainer {
   display: flex;
   width: 100%;

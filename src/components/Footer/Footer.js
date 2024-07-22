@@ -6,7 +6,7 @@ const Footer = ({ children }) => {
   return (
     <footer className={styles.footer}>
       <Container className={styles.footerContainer}>
-        &copy; Snipcart Store
+        &copy; Play Eat Easy
       </Container>
     </footer>
   )
