@@ -16,13 +16,11 @@ const Nav = ({ children }) => {
     <nav className={styles.nav}>
       <Container className={styles.navContainer}>
         <Link href="/">
-          <a className={styles.logoLink}>
             <img 
               src="https://sismapblog.wpcomstaging.com/wp-content/uploads/2022/10/橫pee-logo-1-2.gif" 
               alt="Play Eat Easy Logo" 
               className={styles.logo}
             />
-          </a>
         </Link>
         <p className={styles.description}>
           <a
